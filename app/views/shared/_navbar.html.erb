@@ -1,10 +1,9 @@
 <div class="navbar">
   <div class="navbar__left">
-    <a href="#" class="navbar__portoflio">Portfolio</a>
-    <%# <h3>Portfolio</h3> %>
+    <%= link_to 'Portfolio', root_path, class:'navbar__portoflio' %>
   </div>
   <div class="navbar__right">
-    <a href="">About me</a>
-    <a href="">Contact me </a>
+    <%= link_to 'About me', root_path %>
+    <%= link_to 'Contact me', root_path  %>
   </div>
 </div>
