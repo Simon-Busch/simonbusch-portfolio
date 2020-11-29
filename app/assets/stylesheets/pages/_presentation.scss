@@ -1,0 +1,13 @@
+.presentation__grid {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+
+  &--left {
+    border:1px solid red;
+  }
+
+  &--right {
+    border:1px solid blue;
+  }
+}
