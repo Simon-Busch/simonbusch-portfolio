@@ -2,18 +2,10 @@
   height: 90vh;
   width: 100%;
 
-  h1, h2 {
+  .heading {
     color: $color-primary;
     letter-spacing: 4px;
     text-transform: uppercase;
-  }
-
-  h1 {
-    font-size: 72px;
-  }
-
-  h2 {
-    font-size: 56px ;
-    letter-spacing: 4px;
+    font-size: 72px
   }
 }
