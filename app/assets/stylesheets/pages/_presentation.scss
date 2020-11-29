@@ -1,11 +1,16 @@
 .presentation__container {
   height: 90vh;
+  margin-bottom: 10rem;
 }
 
 .presentation__grid {
   display:grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 40px;
+  @include respond (tab-land) {
+    grid-template-columns: 1fr;
+    
+  }
 
   &--left {
     display:flex;
