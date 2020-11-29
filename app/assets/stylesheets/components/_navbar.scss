@@ -15,30 +15,42 @@
     justify-content: flex-end;
 
     a {
-      margin-left: 36px;
-      margin-right:10px;
+      margin-left: 3.6rem;
+      margin-right:1rem;
       text-decoration: none;
       color:inherit;
       border-bottom: 1px solid $color-primary;
-      font-size: 24px;
+      font-size: 2.4rem;
       text-transform: uppercase;
       @include respond (tab-land) {
-        margin-left:20;
-        margin-right:8px;
+        margin-left:2rem;
+        margin-right:.8rem;
       }
+
+      // @include respond (medium-phone) {
+      //   margin-right:1rem;
+      //   margin-left:1rem;
+      // }
+    }
+    @include respond (medium-phone) {
+      flex-direction: column;
+      width: auto;
+      margin-right:2rem;
     }
   }
 }
 .navbar__portoflio {
-  font-size: 40px;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 700;
   color: $color-primary;
   transition: all .5s;
 
   &:hover {
-    font-size:43px;
+    font-size:4.2rem;
     color:$color-primary;
   }
+
+
   
 }

@@ -7,6 +7,20 @@
 }
 
 html {
+  font-size: 62.5%;
+  @include respond (tab-land) {
+    font-size: 55%;
+  }
+  @include respond (phone) {
+    font-size: 48%;
+  }
+  @include respond (medium-phone) {
+    font-size: 42%;
+  }
+  @include respond (medium-phone) {
+    font-size: 38%;
+  }
+  
   height: 100%;
   font-family: 'Raleway', sans-serif;
   background-color: black;

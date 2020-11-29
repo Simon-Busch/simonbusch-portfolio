@@ -3,21 +3,29 @@
   width:50vw;
   margin-top: 3rem;
   box-shadow: 0px 0px 2px 2px rgba(white,.1);
+
+  @include respond (phone) {
+    height:55vh;
+    width:70vw;
+  }
+  @include respond (medium-phone) {
+    font-size: 38%;
+  }
 }
 
 .heading_contact {
-  font-size: 48px;
+  font-size: 4.8rem;
   color: $color-primary;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
 }
 
 .details {
 
   li {
-    padding: 10px;
-    font-size:24px;
+    padding: 1rem;
+    font-size:2.4rem;
   }
 }
 .email {
@@ -27,11 +35,11 @@
 
 .social {
   h3 {
-    font-size: 32px;
+    font-size: 3.2rem;
     color: $color-primary;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
   }
 
   ul {
@@ -42,8 +50,8 @@
   }
 
   &__icon {
-    font-size: 32px;
-    padding: 15px;
+    font-size: 3.2rem;
+    padding: 1.5rem;
   }
 
   &__link {
@@ -53,7 +61,7 @@
 
     &:hover {
       color:$color-primary-light;
-      font-size: 38px;
+      font-size: 3.8rem;
     }
   }
 }
