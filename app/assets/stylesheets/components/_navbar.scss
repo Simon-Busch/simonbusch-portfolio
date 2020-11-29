@@ -12,15 +12,6 @@
 
 .navbar {
 
-  &__left {
-    h3 {
-      font-size: 40px;
-      text-transform: uppercase;
-      font-weight: 700;
-      color: $color-primary
-    }
-  }
-
   &__right {
     width: 50%;
     display:flex;
@@ -31,9 +22,22 @@
       margin-right: 36px;
       text-decoration: none;
       color:inherit;
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid $color-primary;
       font-size: 24px;
       text-transform: uppercase;
     }
   }
+}
+.navbar__portoflio {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $color-primary;
+  transition: all .5s;
+
+  &:hover {
+    font-size:43px;
+    color:$color-primary;
+  }
+  
 }
