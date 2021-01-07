@@ -7,7 +7,6 @@
 }
 
 .navbar {
-
   &__right {
     width: 50%;
     display:flex;
@@ -26,12 +25,8 @@
         margin-left:2rem;
         margin-right:.8rem;
       }
-
-      // @include respond (medium-phone) {
-      //   margin-right:1rem;
-      //   margin-left:1rem;
-      // }
     }
+
     @include respond (medium-phone) {
       flex-direction: column;
       width: auto;
@@ -39,6 +34,7 @@
     }
   }
 }
+
 .navbar__portoflio {
   font-size: 4rem;
   text-transform: uppercase;
@@ -49,8 +45,5 @@
   &:hover {
     font-size:4.2rem;
     color:$color-primary;
-  }
-
-
-  
+  }  
 }
