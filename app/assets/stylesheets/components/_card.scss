@@ -82,8 +82,17 @@
   }
 }
 
-.techno li {
-  font-size:1.6rem;
+.techno ul li img {
+  margin-right:1rem;
+  height: 4rem;
+  width: auto;
+  border: 1px solid $color-primary-light;
+  border-radius: 25rem;
+  padding: 1rem 1.5rem;
+}
+
+.icon {
+  font-size:2rem;
   margin-right:1rem;
   border: 1px solid $color-primary-light;
   border-radius: 25rem;
